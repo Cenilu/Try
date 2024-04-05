@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <script src="home.js"></script>
+    <title>PASA-HERE-O! - App</title>
+    <link rel="stylesheet" href="home.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Roboto&family=Proxima+Nova:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Roboto&family=Proxima+Nova:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+
+<body>
+    <a id="btnLocate" class="logo"><img src="https://i.ibb.co/kH2yGn7/MB-Logo.png" alt="MB-Logo"></a>
+    <div id="map"></div>
+
+    <div class="circle"></div>
+    <div class="navbar">
+        <a href="#" class="navbar-home"><i class="fas fa-home"></i></a>
+        <a href="App-Menu.html" class="navbar-menu"><i class="fas fa-bars"></i></a>
+        <div class="navbar-circle"></div>
+    </div>
+
+    <button id="btnStart"><i class="fas fa-play"></i></button>
+
+    <div class="tools" id="tools">
+        <div id="distance"></div>
+        <div id="time"></div>
+        <ul id="directions-list"></ul>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
+    <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
+</body>
+
+</html>
